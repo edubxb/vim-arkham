@@ -6,8 +6,7 @@
 [![main](https://github.com/edubxb/vim-arkham/workflows/main/badge.svg?branch=master)](https://github.com/edubxb/vim-arkham/actions?query=workflow%3Amain)
 
 Arkham is a **very dark** vim colorscheme. It works on GUI vim (MacVim or gVim)
-and on terminal vim. For terminal vim, there's support for a lot of terminal
-emulators in the [arkham-contrib][arkham-contrib] repository.
+and on terminal vim.
 
 ![screenshot][screenshot]
 
@@ -91,12 +90,6 @@ Arkham is available for other platforms too. If you want terminal vim to look as
 good as GUI vim, you have to install the Arkham colorscheme for your terminal
 emulator too.
 
-An up-to-date list of supported platforms as well as installation instructions
-for each of those platforms are available at the
-[arkham-contrib][arkham-contrib] repository.
-
-There's an [Emacs version][emacs-version] too, but I don't maintain it.
-
 
 ### Color Palette
 
@@ -125,7 +118,7 @@ You can find the list of contributors [here][contributors].
 
 ## License
 
-MIT &copy; 2014 Andrea Leopardi, see [the license][license-file].
+MIT &copy; 2021 Eduardo Bellido Bellido, see [the license][license-file].
 
 
 [logo]: http://i.imgur.com/FDLEzHC.png "Logo"
@@ -136,5 +129,4 @@ MIT &copy; 2014 Andrea Leopardi, see [the license][license-file].
 [arkham-contrib]: https://github.com/edubxb/arkham-contrib
 [vim-airline]: https://github.com/bling/vim-airline
 [lightline.vim]: https://github.com/itchyny/lightline.vim
-[emacs-version]: https://github.com/wasamasa/arkham-theme
 [contributors]: https://github.com/edubxb/vim-arkham/graphs/contributors

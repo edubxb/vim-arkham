@@ -3,11 +3,11 @@
 
 > It's the colorscheme we set that defines us. *(Batman)*
 
-[![main](https://github.com/whatyouhide/vim-gotham/workflows/main/badge.svg?branch=master)](https://github.com/whatyouhide/vim-gotham/actions?query=workflow%3Amain)
+[![main](https://github.com/edubxb/vim-arkham/workflows/main/badge.svg?branch=master)](https://github.com/edubxb/vim-arkham/actions?query=workflow%3Amain)
 
-Gotham is a **very dark** vim colorscheme. It works on GUI vim (MacVim or gVim)
+Arkham is a **very dark** vim colorscheme. It works on GUI vim (MacVim or gVim)
 and on terminal vim. For terminal vim, there's support for a lot of terminal
-emulators in the [gotham-contrib][gotham-contrib] repository.
+emulators in the [arkham-contrib][arkham-contrib] repository.
 
 ![screenshot][screenshot]
 
@@ -15,17 +15,17 @@ emulators in the [gotham-contrib][gotham-contrib] repository.
 ## Installation
 
 I moved to [vim-plug][vim-plug] a while ago and never looked back. Anyway, you
-can install Gotham with whatever package manager you use. For example:
+can install Arkham with whatever package manager you use. For example:
 
 ``` viml
 " vim-plug
-Plug 'whatyouhide/vim-gotham'
+Plug 'edubxb/vim-arkham'
 " NeoBundle
-NeoBundle 'whatyouhide/vim-gotham'
+NeoBundle 'edubxb/vim-arkham'
 " Vundle
-Plugin 'whatyouhide/vim-gotham'
+Plugin 'edubxb/vim-arkham'
 " dein.vim
-call dein#add('whatyouhide/vim-gotham')
+call dein#add('edubxb/vim-arkham')
 ```
 
 If you don't use a plugin manager just copy the content of `vim/colors/` to
@@ -34,23 +34,23 @@ If you don't use a plugin manager just copy the content of `vim/colors/` to
 When you have the plugin installed, you can set it in your `vimrc`:
 
 ``` viml
-colorscheme gotham
+colorscheme arkham
 ```
 
 #### Terminal vim and 256 colors version
 
-If you want to use Gotham in terminal vim, you should consider setting Gotham as
+If you want to use Arkham in terminal vim, you should consider setting Arkham as
 the colorscheme of your terminal emulator too. See the [relevant
 section](#other).
 
-If you're fine with not-so-faithful colors, a 256 colors version of Gotham is
-available. To use it, just replace `gotham` with `gotham256` in your `vimrc`:
+If you're fine with not-so-faithful colors, a 256 colors version of Arkham is
+available. To use it, just replace `arkham` with `arkham256` in your `vimrc`:
 
 ``` viml
-colorscheme gotham256
+colorscheme arkham256
 ```
 
-Using `gotham256` (given that your terminal supports 256 colors) ensures that
+Using `arkham256` (given that your terminal supports 256 colors) ensures that
 the colors in vim are fixed and don't depend on the colorscheme of the terminal
 emulator.
 
@@ -59,41 +59,41 @@ it looks "rougher" than the regular version.
 
 #### Airline
 
-Gotham supports [vim-airline][vim-airline] out of the box. When you use the
-Gotham colorscheme, Airline should be able to pick it up and use it. If you want
+Arkham supports [vim-airline][vim-airline] out of the box. When you use the
+Arkham colorscheme, Airline should be able to pick it up and use it. If you want
 to set it manually, you can use the `AirlineTheme` command for both the regular
 version and the 256 colors version:
 
-    :AirlineTheme gotham
-    :AirlineTheme gotham256
+    :AirlineTheme arkham
+    :AirlineTheme arkham256
 
-Gotham by default emphasises the usage of insert mode by using a distinctive bright yellow color in
+Arkham by default emphasises the usage of insert mode by using a distinctive bright yellow color in
 the airline mode segment. To change the color used for insert mode to a darker less emphasised color
 add the following to your vimrc:
 
 ```viml
-let g:gotham_airline_emphasised_insert = 0
+let g:arkham_airline_emphasised_insert = 0
 ```
 
 #### Lightline
 
-Gotham supports [lightline.vim][lightline.vim] too. To enable the colorscheme,
+Arkham supports [lightline.vim][lightline.vim] too. To enable the colorscheme,
 add one of the following lines to your `.vimrc`:
 
 ``` viml
-let g:lightline = { 'colorscheme': 'gotham' }
-let g:lightline = { 'colorscheme': 'gotham256' }
+let g:lightline = { 'colorscheme': 'arkham' }
+let g:lightline = { 'colorscheme': 'arkham256' }
 ```
 
 ### <a name=other></a>Other
 
-Gotham is available for other platforms too. If you want terminal vim to look as
-good as GUI vim, you have to install the Gotham colorscheme for your terminal
+Arkham is available for other platforms too. If you want terminal vim to look as
+good as GUI vim, you have to install the Arkham colorscheme for your terminal
 emulator too.
 
 An up-to-date list of supported platforms as well as installation instructions
 for each of those platforms are available at the
-[gotham-contrib][gotham-contrib] repository.
+[arkham-contrib][arkham-contrib] repository.
 
 There's an [Emacs version][emacs-version] too, but I don't maintain it.
 
@@ -133,8 +133,8 @@ MIT &copy; 2014 Andrea Leopardi, see [the license][license-file].
 [license-file]: LICENSE.txt
 
 [vim-plug]: https://github.com/junegunn/vim-plug
-[gotham-contrib]: https://github.com/whatyouhide/gotham-contrib
+[arkham-contrib]: https://github.com/edubxb/arkham-contrib
 [vim-airline]: https://github.com/bling/vim-airline
 [lightline.vim]: https://github.com/itchyny/lightline.vim
-[emacs-version]: https://github.com/wasamasa/gotham-theme
-[contributors]: https://github.com/whatyouhide/vim-gotham/graphs/contributors
+[emacs-version]: https://github.com/wasamasa/arkham-theme
+[contributors]: https://github.com/edubxb/vim-arkham/graphs/contributors

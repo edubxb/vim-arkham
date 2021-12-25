@@ -5,7 +5,7 @@
 "                     | |_\ \ \_/ / | | | | | || | | || |  | |
 "                      \____/\___/  \_/ \_| |_/\_| |_/\_|  |_/
 "
-" URL: https://github.com/whatyouhide/vim-gotham
+" URL: https://github.com/edubxb/vim-arkham
 " Aurhor: Andrea Leopardi <an.leopardi@gmail.com>
 " Version: ϡ
 " License: MIT
@@ -16,7 +16,7 @@
 hi clear
 if exists('syntax_on') | syntax reset | endif
 set background=dark
-let g:colors_name = 'gotham256'
+let g:colors_name = 'arkham256'
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish

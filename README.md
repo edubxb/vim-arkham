@@ -1,7 +1,7 @@
 
 ![logo][logo]
 
-> It's the colorscheme we set that defines us. *(Batman)*
+> It's the colorscheme we set that defines us. *(Joker)*
 
 [![main](https://github.com/edubxb/vim-arkham/workflows/main/badge.svg?branch=master)](https://github.com/edubxb/vim-arkham/actions?query=workflow%3Amain)
 

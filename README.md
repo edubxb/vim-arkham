@@ -1,12 +1,11 @@
-![logo][logo]
 
+![logo][logo]
 
 > It's the colorscheme we set that defines us. *(Batman)*
 
 [![main](https://github.com/edubxb/vim-arkham/workflows/main/badge.svg?branch=master)](https://github.com/edubxb/vim-arkham/actions?query=workflow%3Amain)
 
-Arkham is a **very dark** vim colorscheme. It works on GUI vim (MacVim or gVim)
-and on terminal vim.
+Arkham is a vim colorscheme based in [Gotham](whatyouhide/vim-gotham) but **even darker**. It works in vim or neovim.
 
 ![screenshot][screenshot]
 
@@ -121,7 +120,7 @@ You can find the list of contributors [here][contributors].
 MIT &copy; 2021 Eduardo Bellido Bellido, see [the license][license-file].
 
 
-[logo]: http://i.imgur.com/FDLEzHC.png "Logo"
+[logo]: https://i.imgur.com/szikQ8b.png "Logo"
 [screenshot]: http://i.imgur.com/NfRuHFN.png "A vim screenshot"
 [license-file]: LICENSE.txt
 

@@ -5,7 +5,7 @@
 
 [![main](https://github.com/edubxb/vim-arkham/workflows/main/badge.svg?branch=master)](https://github.com/edubxb/vim-arkham/actions?query=workflow%3Amain)
 
-Arkham is a vim colorscheme based in [Gotham](whatyouhide/vim-gotham) but **even darker**. It works in vim or neovim.
+Arkham is a vim colorscheme based on [Gotham](whatyouhide/vim-gotham) but **even darker**. It works in vim or neovim.
 
 ![screenshot][screenshot]
 

@@ -16,7 +16,7 @@
 hi clear
 if exists('syntax_on') | syntax reset | endif
 set background=dark
-let g:colors_name = 'gotham'
+let g:colors_name = 'arkham'
 
 
 " Helper functions =============================================================

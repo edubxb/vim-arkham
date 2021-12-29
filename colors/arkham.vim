@@ -5,7 +5,7 @@
 "                     | |_\ \ \_/ / | | | | | || | | || |  | |
 "                      \____/\___/  \_/ \_| |_/\_| |_/\_|  |_/
 "
-" URL: https://github.com/edubxb/vim-arkham
+" URL: https://github.com/whatyouhide/vim-gotham
 " Aurhor: Andrea Leopardi <an.leopardi@gmail.com>
 " Version: 1.0.0
 " License: MIT
@@ -16,7 +16,7 @@
 hi clear
 if exists('syntax_on') | syntax reset | endif
 set background=dark
-let g:colors_name = 'arkham'
+let g:colors_name = 'gotham'
 
 
 " Helper functions =============================================================

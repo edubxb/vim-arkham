@@ -35,61 +35,6 @@ When you have the plugin installed, you can set it in your `vimrc`:
 colorscheme arkham
 ```
 
-#### Terminal vim and 256 colors version
-
-If you want to use Arkham in terminal vim, you should consider setting Arkham as
-the colorscheme of your terminal emulator too. See the [relevant
-section](#other).
-
-If you're fine with not-so-faithful colors, a 256 colors version of Arkham is
-available. To use it, just replace `arkham` with `arkham256` in your `vimrc`:
-
-``` viml
-colorscheme arkham256
-```
-
-Using `arkham256` (given that your terminal supports 256 colors) ensures that
-the colors in vim are fixed and don't depend on the colorscheme of the terminal
-emulator.
-
-**Please**, use the 256 colors version only if you know what you're doing since
-it looks "rougher" than the regular version.
-
-#### Airline
-
-Arkham supports [vim-airline][vim-airline] out of the box. When you use the
-Arkham colorscheme, Airline should be able to pick it up and use it. If you want
-to set it manually, you can use the `AirlineTheme` command for both the regular
-version and the 256 colors version:
-
-    :AirlineTheme arkham
-    :AirlineTheme arkham256
-
-Arkham by default emphasises the usage of insert mode by using a distinctive bright yellow color in
-the airline mode segment. To change the color used for insert mode to a darker less emphasised color
-add the following to your vimrc:
-
-```viml
-let g:arkham_airline_emphasised_insert = 0
-```
-
-#### Lightline
-
-Arkham supports [lightline.vim][lightline.vim] too. To enable the colorscheme,
-add one of the following lines to your `.vimrc`:
-
-``` viml
-let g:lightline = { 'colorscheme': 'arkham' }
-let g:lightline = { 'colorscheme': 'arkham256' }
-```
-
-### <a name=other></a>Other
-
-Arkham is available for other platforms too. If you want terminal vim to look as
-good as GUI vim, you have to install the Arkham colorscheme for your terminal
-emulator too.
-
-
 ### Color Palette
 
 
@@ -125,7 +70,4 @@ MIT &copy; 2021 Eduardo Bellido Bellido, see [the license][license-file].
 [license-file]: LICENSE.txt
 
 [vim-plug]: https://github.com/junegunn/vim-plug
-[arkham-contrib]: https://github.com/edubxb/arkham-contrib
-[vim-airline]: https://github.com/bling/vim-airline
-[lightline.vim]: https://github.com/itchyny/lightline.vim
 [contributors]: https://github.com/edubxb/vim-arkham/graphs/contributors
